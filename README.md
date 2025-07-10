@@ -2,5 +2,5 @@
 
 Yli: Lightweight PHP framework.
 
-> [!WRANING]
+> [!WARNING]
 > This project still on development, it is not ready for production.
