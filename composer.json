@@ -1,0 +1,36 @@
+{
+    "name": "yli/yli",
+    "description": "Yli: Lightweight PHP framework.",
+    "type": "project",
+    "keywords": ["yli", "framework"],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Yli\\Framework\\": "src/framework/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Yli\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12",
+        "phpstan/phpstan": "^2.1",
+        "symfony/var-dumper": "^7.3"
+    },
+    "authors": [
+        {
+        "name": "Ashish Kumbhar",
+        "email": "ashishkumbhar01@hotmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "php ./vendor/bin/phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
